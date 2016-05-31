@@ -1,0 +1,15 @@
+使用环境：windows+Apache+PHP5.4
+
+1、php_pthreads.dll 添加到php安装目录ext下
+
+
+2、pthreadVC2.dll 添加到php.exe 同目录下
+
+3、php.ini 添加   extension=php_pthreads.dll
+
+4、Apache配置文件 httpd.conf 添加 LoadModule php5_module "D:/AppServ/php5.4/pthreadVC2.dll"
+（注意你的php路劲哦！）
+
+5、运行 pthread_me.php 查看效果。
+
+
