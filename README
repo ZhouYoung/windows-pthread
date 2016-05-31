@@ -1,15 +1,15 @@
-Ê¹ÓÃ»·¾³£ºwindows+Apache+PHP5.4
+ä½¿ç”¨ç¯å¢ƒï¼šwindows+Apache+PHP5.4
 
-1¡¢php_pthreads.dll Ìí¼Óµ½php°²×°Ä¿Â¼extÏÂ
-
-
-2¡¢pthreadVC2.dll Ìí¼Óµ½php.exe Í¬Ä¿Â¼ÏÂ
-
-3¡¢php.ini Ìí¼Ó   extension=php_pthreads.dll
-
-4¡¢ApacheÅäÖÃÎÄ¼ş httpd.conf Ìí¼Ó LoadModule php5_module "D:/AppServ/php5.4/pthreadVC2.dll"
-£¨×¢ÒâÄãµÄphpÂ·¾¢Å¶£¡£©
-
-5¡¢ÔËĞĞ pthread_me.php ²é¿´Ğ§¹û¡£
+1ã€php_pthreads.dll æ·»åŠ åˆ°phpå®‰è£…ç›®å½•extä¸‹
 
 
+2ã€pthreadVC2.dll æ·»åŠ åˆ°php.exe åŒç›®å½•ä¸‹
+
+3ã€php.ini æ·»åŠ    extension=php_pthreads.dll
+
+4ã€Apacheé…ç½®æ–‡ä»¶ httpd.conf æ·»åŠ  LoadModule php5_module "D:/AppServ/php5.4/pthreadVC2.dll"
+ï¼ˆæ³¨æ„ä½ çš„phpè·¯åŠ²å“¦ï¼ï¼‰
+
+5ã€è¿è¡Œ pthread_me.php æŸ¥çœ‹æ•ˆæœã€‚
+
+2016-05-31
